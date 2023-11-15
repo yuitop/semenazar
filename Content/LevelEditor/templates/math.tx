@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object>
+  <properties>
+   <property name="height" type="int" value="6"/>
+   <property name="object" value="math"/>
+   <property name="signal" type="int" value="0"/>
+   <property name="table">2+_=7
+*
+_
+=
+10</property>
+   <property name="width" type="int" value="7"/>
+  </properties>
+  <point/>
+ </object>
+</template>

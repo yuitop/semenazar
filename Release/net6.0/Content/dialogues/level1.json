@@ -1,0 +1,41 @@
+{
+
+    "Voices" : [ "dialogues/Level1/voice1", "dialogues/Level1/voice2", "dialogues/Level1/voice3"  ],
+
+    "Actions" : [
+
+        {
+            "Type": "text",
+            "Value": "И вот он идет Семен."
+        },
+
+
+
+        {
+            "Type": "portrait",
+            "Value" : "semen"
+        },
+        {
+            "Type" : "name",
+            "Value" : "Семеназар"
+        },
+        { "Type": "voice" },
+        {
+            "Type": "text",
+            "Value": "Как же хорошо жить!"
+        },
+
+        { "Type": "voice" },
+        {
+            "Type": "text",
+            "Value": "да."
+        },
+
+        
+        { "Type": "voice" },
+        {
+            "Type": "text",
+            "Value": "и т.д."
+        }
+    ]
+}

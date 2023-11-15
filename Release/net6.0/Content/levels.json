@@ -1,0 +1,53 @@
+[
+    {
+        "Type" : "simple",
+        "Name" : "1-1",
+        "Code" : "1-1",
+        "Source" : "map1",
+        "TotalCoins" :  2
+    },
+    {
+        "Type" : "simple",
+        "Name" : "2-1",
+        "Code" : "2-1",
+        "Source" : "map6",
+        "TotalCoins" :  0
+    },
+    {
+        "Type" : "test",
+        "Name" : "Матеша",
+        "Code" : "math",
+        "Source" : "test1",
+        "Total" : 6
+    },
+    {
+        "Type" : "simple",
+        "Name" : "3-1",
+        "Code" : "3-1",
+        "Source" : "map8",
+        "Coins" : 1,
+        "TotalCoins" :  0
+    },
+    {
+        "Type" : "simple",
+        "Name" : "4-1",
+        "Code" : "4-1",
+        "Source" : "map9",
+        "TotalCoins" :  0
+    },
+    {
+        "Type" : "simple",
+        "Name" : "5-1",
+        "Code" : "5-1",
+        "Source" : "map10",
+        "Coins" : 4,
+        "TotalCoins" :  0
+    },
+    {
+        "Type" : "test",
+        "Name" : "Кринж",
+        "Code" : "cringe",
+        "Source" : "test11",
+        "Total" : 6
+    }
+]

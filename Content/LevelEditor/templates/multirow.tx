@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object>
+  <properties>
+   <property name="height" type="int" value="2"/>
+   <property name="object" value="math_multi_row"/>
+   <property name="signals" value="0 1"/>
+   <property name="table">5-_=2
+_+2=5</property>
+   <property name="width" type="int" value="10"/>
+  </properties>
+  <point/>
+ </object>
+</template>

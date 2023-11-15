@@ -1,0 +1,26 @@
+[
+    {
+        "Code" : "elden",
+        "Price" : 3,
+        "Name" : "Elden Elden",
+        "Description" : "да",
+        "Source" : "image1.png",
+        "Preview" : "image1_preview.png"
+    },
+    {
+        "Code" : "vova1",
+        "Price" : 4,
+        "Name" : "Вова",
+        "Description" : "да",
+        "Source" : "image2.png",
+        "Preview" : "image2_preview.png"
+    },
+    {
+        "Code" : "vova2",
+        "Price" : 2,
+        "Name" : "Вова",
+        "Description" : "да",
+        "Source" : "image3.png",
+        "Preview" : "image3_preview.png"
+    }
+]

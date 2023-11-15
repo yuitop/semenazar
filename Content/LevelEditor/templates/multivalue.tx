@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object>
+  <properties>
+   <property name="height" type="int" value="2"/>
+   <property name="object" value="math_multi_value"/>
+   <property name="rows">0 15
+1 12</property>
+   <property name="table">13+_
+_+10</property>
+   <property name="width" type="int" value="10"/>
+  </properties>
+  <point/>
+ </object>
+</template>
