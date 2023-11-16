@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="383">
+ <tileset firstgid="1" source="../../../Content/tileset.tsx"/>
+ <tileset firstgid="1025" source="../../../Content/LevelEditor/big.tsx"/>
+ <tileset firstgid="1281" source="../../../Content/LevelEditor/small.tsx"/>
+ <tileset firstgid="2305" source="../../../Content/LevelEditor/wide.tsx"/>
+ <tileset firstgid="2817" source="../../../Content/LevelEditor/ultrawide.tsx"/>
+ <tileset firstgid="3137" source="../../../Content/LevelEditor/Tall.tsx"/>
+ <layer id="3" name="Background" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,487,488,131,131,131,131,131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,82,82,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,80,82,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,48,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,48,82,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+17,82,82,82,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Base" width="40" height="23">
+  <properties>
+   <property name="NoOverlappingOutput" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,66,66,66,66,66,66,66,66,66,66,66,66,66,66,0,0,
+0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,2,2,2,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,
+0,33,101,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,65,66,66,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,2,2,2,2,2,2,2,19,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,82,82,82,82,50,83,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,82,82,82,82,81,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,82,82,82,82,83,0,0,
+1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,0,0,
+33,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,35,0,0,
+65,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,67,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="322" gid="1025" x="8" y="136" width="16" height="16">
+   <properties>
+    <property name="object" value="player"/>
+   </properties>
+  </object>
+  <object id="323" gid="1027" x="192" y="72" width="16" height="16">
+   <properties>
+    <property name="object" value="door"/>
+   </properties>
+  </object>
+  <object id="324" gid="1409" x="272" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="key"/>
+   </properties>
+  </object>
+  <object id="338" gid="1377" x="112" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="block"/>
+   </properties>
+  </object>
+  <object id="339" gid="1540" x="224" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="342" gid="3138" x="160" y="88" width="8" height="16">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="object" value="beam"/>
+    <property name="reverse" type="bool" value="true"/>
+    <property name="signal" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="344" gid="1348" x="32" y="80" width="8" height="8">
+   <properties>
+    <property name="dir" type="int" value="-1"/>
+    <property name="enabled" type="bool" value="false"/>
+    <property name="object" value="wall_button"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="345" gid="1281" x="224" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="346" gid="1281" x="224" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="347" gid="1281" x="224" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="348" gid="1313" x="248" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="349" gid="1313" x="248" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="350" gid="1313" x="248" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="351" gid="2307" x="232" y="120" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="3"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="354" gid="1377" x="104" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="block"/>
+   </properties>
+  </object>
+  <object id="355" gid="2305" x="200" y="136" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="356" gid="1346" x="192" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="357" gid="1346" x="192" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="358" gid="1346" x="192" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="359" gid="2339" x="200" y="152" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="-3"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="360" gid="1377" x="152" y="56" width="8" height="8">
+   <properties>
+    <property name="object" value="block"/>
+   </properties>
+  </object>
+  <object id="361" gid="1473" x="160" y="56" width="8" height="8">
+   <properties>
+    <property name="object" value="bomb"/>
+   </properties>
+  </object>
+  <object id="362" gid="1505" x="240" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="remote"/>
+   </properties>
+  </object>
+  <object id="363" gid="2323" x="304" y="120" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="-3"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="364" gid="2321" x="264" y="104" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="365" gid="1314" x="200" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="366" gid="1314" x="200" y="96" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="367" gid="1314" x="200" y="88" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="368" gid="1313" x="224" y="64" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="369" gid="1313" x="224" y="64" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="371" gid="1313" x="224" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="376" gid="1282" x="208" y="64" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="377" gid="1282" x="208" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="380" gid="1345" x="216" y="64" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="381" gid="1345" x="216" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="382" gid="1411" x="208" y="40" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
