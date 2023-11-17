@@ -45,9 +45,30 @@
     },
     {
         "Type" : "test",
-        "Name" : "Кринж",
-        "Code" : "cringe",
-        "Source" : "test11",
+        "Name" : "Линейные уравнения",
+        "Code" : "linear",
+        "Source" : "linear",
+        "Total" : 6
+    },
+    {
+        "Type" : "test",
+        "Name" : "Упрощение выражений",
+        "Code" : "simplify",
+        "Source" : "simplify",
+        "Total" : 6
+    },
+    {
+        "Type" : "test",
+        "Name" : "Дискриминант",
+        "Code" : "discrimination",
+        "Source" : "discrimination",
+        "Total" : 6
+    },
+    {
+        "Type" : "test",
+        "Name" : "Квадратные уравнения",
+        "Code" : "quadratic",
+        "Source" : "quad",
         "Total" : 6
     }
 ]
