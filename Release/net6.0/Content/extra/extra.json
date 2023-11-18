@@ -16,11 +16,11 @@
         "Preview" : "image2_preview.png"
     },
     {
-        "Code" : "vova2",
+        "Code" : "semen",
         "Price" : 2,
-        "Name" : "Вова",
-        "Description" : "да",
-        "Source" : "image3.png",
+        "Name" : "\"Конец Семена\"",
+        "Description" : "\"Казалось бы, при чем здесь Украина?\"",
+        "Source" : "image1.png",
         "Preview" : "image3_preview.png"
     }
 ]
