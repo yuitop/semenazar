@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="140">
+ <tileset firstgid="1" source="../../../../Content/tileset.tsx"/>
+ <tileset firstgid="1025" source="../../../../Content/LevelEditor/big.tsx"/>
+ <tileset firstgid="1281" source="../../../../Content/LevelEditor/small.tsx"/>
+ <tileset firstgid="2305" source="../../../../Content/LevelEditor/wide.tsx"/>
+ <tileset firstgid="2817" source="../../../../Content/LevelEditor/Tall.tsx"/>
+ <layer id="3" name="Background" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,335,335,335,335,336,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,367,367,367,368,16,50,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,367,367,367,368,48,49,50,49,49,50,
+0,0,0,18,18,0,0,0,0,0,0,0,17,19,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,367,367,367,368,48,81,82,49,81,82,
+0,0,0,49,50,0,0,0,0,0,0,49,82,83,0,0,0,0,0,0,0,0,0,0,0,398,399,399,399,399,399,399,399,400,80,81,82,81,81,82,
+0,0,0,50,50,0,0,0,0,0,0,49,82,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,81,82,82,82,82,
+0,0,0,82,50,0,0,0,0,0,0,81,82,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,50,0,0,0,112,0,0,0,0,0,
+0,0,0,50,82,0,0,0,0,0,0,81,49,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,50,82,0,0,0,0,0,0,0,0,0,
+0,0,0,50,50,0,0,0,0,0,0,81,82,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,82,82,0,0,0,0,0,0,0,0,0,
+0,0,0,50,50,0,0,0,0,0,0,81,81,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,50,50,0,0,0,0,0,0,0,0,0,
+0,0,0,50,49,0,0,0,0,0,0,81,49,49,51,0,0,0,0,0,0,0,0,0,0,0,0,0,80,82,82,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Base" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,
+34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,66,66,66,66,
+34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,35,0,0,1,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,
+34,34,35,0,0,33,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="94" gid="1025" x="78.6064" y="114.545" width="16" height="16">
+   <properties>
+    <property name="object" value="player"/>
+   </properties>
+  </object>
+  <object id="120" x="201" y="105">
+   <properties>
+    <property name="height" type="int" value="1"/>
+    <property name="object" value="math_multi_row"/>
+    <property name="signals" value="0"/>
+    <property name="table" value="10+_=12"/>
+    <property name="width" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="121" gid="1539" x="57.6667" y="117.515" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="122" gid="1541" x="70.8182" y="117.879" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="124" gid="2337" x="80" y="120" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="125" gid="2881" x="24" y="104" width="8" height="16">
+   <properties>
+    <property name="direction" type="int" value="3"/>
+    <property name="object" value="beam"/>
+    <property name="reverse" type="bool" value="true"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="126" gid="1441" x="40.5455" y="118.061" width="8" height="8">
+   <properties>
+    <property name="object" value="stone"/>
+   </properties>
+  </object>
+  <object id="128" x="222" y="113">
+   <properties>
+    <property name="height" type="int" value="1"/>
+    <property name="object" value="math_multi_row"/>
+    <property name="signals" value="2"/>
+    <property name="table" value="1_+_=16"/>
+    <property name="width" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="129" gid="1409" x="248" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="key"/>
+   </properties>
+  </object>
+  <object id="130" gid="1281" x="248" y="80" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="131" gid="1027" x="296" y="144" width="16" height="16">
+   <properties>
+    <property name="object" value="door"/>
+   </properties>
+  </object>
+  <object id="132" gid="1346" x="280" y="144" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="133" gid="1346" x="280" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="134" gid="1346" x="280" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="135" gid="1346" x="280" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="136" gid="1411" x="160" y="96" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="137" gid="1411" x="264" y="136" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="138" gid="1282" x="32" y="112" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="139" gid="1411" x="8" y="72" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

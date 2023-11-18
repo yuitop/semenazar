@@ -4,23 +4,31 @@
         "Price" : 3,
         "Name" : "Elden Elden",
         "Description" : "да",
-        "Source" : "image1.png",
-        "Preview" : "image1_preview.png"
-    },
-    {
-        "Code" : "vova1",
-        "Price" : 4,
-        "Name" : "Вова",
-        "Description" : "да",
-        "Source" : "image2.png",
-        "Preview" : "image2_preview.png"
+        "Source" : "image1",
+        "Preview" : "image1_preview"
     },
     {
         "Code" : "semen",
         "Price" : 2,
         "Name" : "\"Конец Семена\"",
         "Description" : "\"Казалось бы, при чем здесь Украина?\"",
-        "Source" : "image1.png",
-        "Preview" : "image3_preview.png"
+        "Source" : "image1",
+        "Preview" : "image3_preview"
+    },
+    {
+        "Code" : "antonvladimir",
+        "Price" : 0,
+        "Name" : "\"Антон И Владимир\"",
+        "Description" : "\"где?\"",
+        "Source" : "image4",
+        "Preview" : "image4"
+    },
+    {
+        "Code" : "vova1",
+        "Price" : 4,
+        "Name" : "Вова",
+        "Description" : "да",
+        "Source" : "image2",
+        "Preview" : "image2_preview"
     }
 ]
