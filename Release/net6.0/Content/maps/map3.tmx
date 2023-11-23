@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="105">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="108">
  <tileset firstgid="1" source="../tileset.tsx"/>
  <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
@@ -89,17 +89,6 @@
     <property name="value" type="int" value="2"/>
    </properties>
   </object>
-  <object id="98" x="82" y="113">
-   <properties>
-    <property name="height" type="int" value="2"/>
-    <property name="object" value="math_multi_row"/>
-    <property name="signals" value="0 1"/>
-    <property name="table">5-_=3
-_+2=4</property>
-    <property name="width" type="int" value="10"/>
-   </properties>
-   <point/>
-  </object>
   <object id="99" gid="1569" x="20.75" y="139.25" width="8" height="8">
    <properties>
     <property name="object" value="letter"/>
@@ -112,23 +101,13 @@ _+2=4</property>
     <property name="value" type="int" value="3"/>
    </properties>
   </object>
-  <object id="101" x="82" y="129">
-   <properties>
-    <property name="height" type="int" value="2"/>
-    <property name="object" value="math_setter"/>
-    <property name="table" value="2+_"/>
-    <property name="variable" value="0"/>
-    <property name="width" type="int" value="10"/>
-   </properties>
-   <point/>
-  </object>
   <object id="102" x="154" y="65">
    <properties>
     <property name="height" type="int" value="7"/>
     <property name="object" value="math"/>
     <property name="signal" type="int" value="2"/>
     <property name="table">2+_=7
-*
++
 _
 =
 10-8=_</property>
@@ -148,6 +127,24 @@ _
    <properties>
     <property name="object" value="number"/>
     <property name="value" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="105" gid="1542" x="96.6667" y="142.667" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="106" gid="1537" x="109.667" y="145.333" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="107" gid="1545" x="87" y="141.333" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="8"/>
    </properties>
   </object>
  </objectgroup>

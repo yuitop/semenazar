@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="165">
+ <tileset firstgid="1" source="../../../../../Content/tileset.tsx"/>
+ <tileset firstgid="1025" source="../../../../../Content/LevelEditor/big.tsx"/>
+ <tileset firstgid="1281" source="../../../../../Content/LevelEditor/small.tsx"/>
+ <tileset firstgid="2305" source="../../../../../Content/LevelEditor/wide.tsx"/>
+ <layer id="3" name="Background" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="Base" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,2,2,3,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,1,2,2,3,0,
+0,33,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,35,0,
+0,33,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,35,0,
+0,33,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,35,0,
+0,33,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,33,34,34,35,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="94" gid="1025" x="119.917" y="133.166" width="16" height="16">
+   <properties>
+    <property name="object" value="player"/>
+   </properties>
+  </object>
+  <object id="124" x="136" y="112">
+   <properties>
+    <property name="height" type="int" value="1"/>
+    <property name="object" value="math_multi_row"/>
+    <property name="signals" value="2"/>
+    <property name="table" value="2+_=_"/>
+    <property name="width" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="138" gid="1540" x="135.5" y="132.5" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="140" gid="1542" x="152.5" y="131.75" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="141" gid="1544" x="173" y="131.25" width="8" height="8">
+   <properties>
+    <property name="object" value="number"/>
+    <property name="value" type="int" value="7"/>
+   </properties>
+  </object>
+  <object id="142" x="96" y="120">
+   <properties>
+    <property name="height" type="int" value="1"/>
+    <property name="object" value="math_multi_row"/>
+    <property name="signals" value="0"/>
+    <property name="table" value="9/3=_"/>
+    <property name="width" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="143" x="200" y="120">
+   <properties>
+    <property name="height" type="int" value="1"/>
+    <property name="object" value="math_multi_row"/>
+    <property name="signals" value="1"/>
+    <property name="table" value="_-3=4"/>
+    <property name="width" type="int" value="10"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="144" gid="2323" x="256" y="88" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="7"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="145" gid="2307" x="48" y="88" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="7"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="146" gid="2339" x="216" y="176" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="-4"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="147" gid="2339" x="88" y="176" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="-4"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="148" gid="1409" x="8.25" y="142.75" width="8" height="8">
+   <properties>
+    <property name="object" value="key"/>
+   </properties>
+  </object>
+  <object id="149" gid="1027" x="288" y="144" width="16" height="16">
+   <properties>
+    <property name="object" value="door"/>
+   </properties>
+  </object>
+  <object id="155" gid="2321" x="184" y="136" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="156" gid="2337" x="16" y="144" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="157" gid="1345" x="72" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="158" gid="1345" x="72" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="159" gid="1345" x="240" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="160" gid="1345" x="240" y="120" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="161" gid="1345" x="72" y="112" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="162" gid="1345" x="240" y="112" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="2"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="163" gid="1411" x="52" y="128" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="164" gid="1411" x="260.333" y="128.667" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

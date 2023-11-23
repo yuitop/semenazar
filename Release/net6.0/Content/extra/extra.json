@@ -21,14 +21,14 @@
         "Name" : "\"Антон И Владимир\"",
         "Description" : "\"где?\"",
         "Source" : "image4",
-        "Preview" : "image4"
+        "Preview" : "image4_preview"
     },
     {
-        "Code" : "vova1",
-        "Price" : 4,
+        "Code" : "lilith",
+        "Price" : 2,
         "Name" : "Вова",
         "Description" : "да",
-        "Source" : "image2",
-        "Preview" : "image2_preview"
+        "Source" : "image5",
+        "Preview" : "image5_preview"
     }
 ]

@@ -1,53 +1,54 @@
 [
     {
         "Type" : "simple",
-        "Name" : "1-1",
-        "Code" : "1-1",
-        "Source" : "map1",
+        "Name" : "Обучение 1",
+        "Code" : "level1_tutorial",
+        "Source" : "level1_tutorial",
         "TotalCoins" :  2
     },
     {
         "Type" : "simple",
-        "Name" : "2-1",
-        "Code" : "2-1",
-        "Source" : "map6",
-        "TotalCoins" :  0
+        "Name" : "Обучение 2",
+        "Code" : "level2_tutorial",
+        "Source" : "level2_tutorial",
+        "TotalCoins" :  2
     },
     {
+        "Type" : "simple",
+        "Name" : "Спуск",
+        "Code" : "level3_descend",
+        "Source" : "level3_descend",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Башня",
+        "Code" : "level5_tower",
+        "Source" : "level5_tower",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Лучи",
+        "Code" : "tutorial_laser",
+        "Source" : "tutorial_laser",
+        "TotalCoins" :  2
+    },
+
+    {
         "Type" : "test",
-        "Name" : "Матеша",
-        "Code" : "math",
-        "Source" : "test1",
+        "Name" : "Дроби 1",
+        "Code" : "addsubtract",
+        "Source" : "addsubtract",
         "Total" : 6
     },
     {
-        "Type" : "simple",
-        "Name" : "3-1",
-        "Code" : "3-1",
-        "Source" : "map8",
-        "Coins" : 1,
-        "TotalCoins" :  0
-    },
-    {
-        "Type" : "simple",
-        "Name" : "4-1",
-        "Code" : "4-1",
-        "Source" : "map9",
-        "TotalCoins" :  0
-    },
-    {
-        "Type" : "simple",
-        "Name" : "5-1",
-        "Code" : "5-1",
-        "Source" : "map10",
-        "Coins" : 4,
-        "TotalCoins" :  0
-    },
-    {
         "Type" : "test",
-        "Name" : "Линейные уравнения",
-        "Code" : "linear",
-        "Source" : "linear",
+        "Name" : "Дроби 2",
+        "Code" : "operations",
+        "Source" : "operations",
         "Total" : 6
     },
     {
@@ -55,6 +56,13 @@
         "Name" : "Упрощение выражений",
         "Code" : "simplify",
         "Source" : "simplify",
+        "Total" : 6
+    },
+    {
+        "Type" : "test",
+        "Name" : "Линейные уравнения",
+        "Code" : "linear",
+        "Source" : "linear",
         "Total" : 6
     },
     {
