@@ -172,7 +172,7 @@
   </object>
   <object id="209" gid="1026" x="240" y="136" width="16" height="16">
    <properties>
-    <property name="lines" value="Красный луч уничтожает все объекты которых касается."/>
+    <property name="lines" value="Красный луч уничтожает все объекты, которых касается."/>
     <property name="object" value="sign"/>
    </properties>
   </object>

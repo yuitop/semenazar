@@ -180,7 +180,7 @@
   </object>
   <object id="103" gid="2562" x="46" y="144" width="16" height="16">
    <properties>
-    <property name="lines" value="Можно прыгнуть чтобы кинуть предмет через стену."/>
+    <property name="lines" value="Можно прыгнуть, чтобы кинуть предмет через стену."/>
     <property name="object" value="sign"/>
    </properties>
   </object>

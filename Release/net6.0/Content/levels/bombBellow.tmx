@@ -168,7 +168,7 @@
   </object>
   <object id="143" gid="1026" x="274" y="128" width="16" height="16">
    <properties>
-    <property name="lines" value="Пожалуйста не используйте распрыжку."/>
+    <property name="lines" value="Пожалуйста, не используйте распрыжку."/>
     <property name="object" value="sign"/>
    </properties>
   </object>

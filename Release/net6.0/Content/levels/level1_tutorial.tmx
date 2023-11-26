@@ -76,7 +76,7 @@
   </object>
   <object id="272" gid="1026" x="96" y="128" width="16" height="16">
    <properties>
-    <property name="lines">Падающая платформа обрушается после того, как на нее наступить.
+    <property name="lines">Падающая платформа обрушается, если на нее наступить.
 По ней можно пройти только один раз.</property>
     <property name="object" value="sign"/>
    </properties>
@@ -101,8 +101,8 @@
    <properties>
     <property name="lines">Управление:
 Движение персонажа на WASD/стрелочки. Прыжок на пробел.
-Поднять/Опустить предмет на Z.
-Чтобы кинуть предмет нужно нажать Z с зажатым Shift.</property>
+Поднять/опустить предмет на Z.
+Чтобы кинуть предмет, нужно нажать Z с зажатым Shift.</property>
     <property name="object" value="sign"/>
    </properties>
   </object>

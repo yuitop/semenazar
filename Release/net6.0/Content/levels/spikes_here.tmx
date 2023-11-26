@@ -148,7 +148,7 @@
   <object id="184" gid="1026" x="88" y="80" width="16" height="16">
    <properties>
     <property name="lines">Удерживая Shift, можно целиться точнее.
-Прицел будет двигаться взад-вперед.</property>
+Прицел будет двигаться вперед и назад.</property>
     <property name="object" value="sign"/>
    </properties>
   </object>

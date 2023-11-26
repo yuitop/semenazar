@@ -206,7 +206,7 @@
   </object>
   <object id="240" gid="1026" x="208" y="168" width="16" height="16">
    <properties>
-    <property name="lines" value="Если промахнуться камнем то он появиться снова."/>
+    <property name="lines" value="Если промахнуться камнем, то он появится снова."/>
     <property name="object" value="sign"/>
    </properties>
   </object>
