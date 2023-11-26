@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="193">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="196">
  <tileset firstgid="1" source="../../../../../Content/tileset.tsx"/>
  <tileset firstgid="1025" source="../../../../../Content/LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../../../../../Content/LevelEditor/small.tsx"/>
@@ -12,15 +12,15 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,18,18,19,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,335,335,335,336,80,82,50,49,51,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,367,367,368,48,50,50,50,51,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,367,367,368,80,50,50,50,51,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,19,0,0,0,0,366,367,367,367,367,367,367,368,48,0,0,0,51,
-0,0,0,0,0,0,16,18,19,0,0,0,0,0,0,0,0,80,0,0,0,0,51,0,0,0,0,398,399,399,399,399,399,399,400,48,0,0,0,83,
-0,0,0,0,0,48,50,49,51,0,0,0,0,0,0,0,0,48,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,112,0,0,0,115,
-0,0,0,0,0,48,50,49,51,0,0,0,0,0,0,0,0,80,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,48,82,50,51,0,0,0,0,0,0,0,0,48,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,335,336,0,0,0,16,18,18,19,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,0,80,82,50,49,51,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,0,48,50,50,50,51,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,398,399,399,399,399,400,0,0,80,50,50,50,51,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,51,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,83,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,112,0,0,0,115,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,16,50,50,50,51,0,0,0,0,0,0,19,0,80,0,0,0,0,51,0,16,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,
 0,0,0,0,48,0,0,0,0,0,0,0,0,0,0,51,0,48,0,0,0,0,83,0,48,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,
 0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,83,0,48,0,0,0,0,51,0,80,0,0,0,0,0,0,0,0,0,0,83,0,0,0,0,
@@ -74,31 +74,11 @@
     <property name="object" value="spear"/>
    </properties>
   </object>
-  <object id="169" gid="2305" x="152" y="80" width="16" height="8">
+  <object id="169" gid="2305" x="160" y="80" width="16" height="8">
    <properties>
     <property name="object" value="button"/>
     <property name="signal" type="int" value="0"/>
    </properties>
-  </object>
-  <object id="170" x="218" y="65">
-   <properties>
-    <property name="height" type="int" value="1"/>
-    <property name="object" value="math_setter"/>
-    <property name="table" value="_"/>
-    <property name="variable" type="int" value="0"/>
-    <property name="width" type="int" value="10"/>
-   </properties>
-   <point/>
-  </object>
-  <object id="171" x="250" y="65">
-   <properties>
-    <property name="height" type="int" value="1"/>
-    <property name="object" value="math_setter"/>
-    <property name="table" value="_"/>
-    <property name="variable" type="int" value="1"/>
-    <property name="width" type="int" value="10"/>
-   </properties>
-   <point/>
   </object>
   <object id="172" gid="2305" x="64" y="120" width="16" height="8">
    <properties>
@@ -106,28 +86,28 @@
     <property name="signal" type="int" value="0"/>
    </properties>
   </object>
-  <object id="174" gid="1542" x="228.864" y="24.1364" width="8" height="8">
+  <object id="174" gid="1542" x="239.864" y="24" width="8" height="8">
    <properties>
     <property name="object" value="number"/>
     <property name="value" type="int" value="5"/>
    </properties>
   </object>
-  <object id="176" x="60" y="132">
+  <object id="176" x="218" y="65">
    <properties>
     <property name="height" type="int" value="1"/>
     <property name="object" value="math_multi_row"/>
     <property name="signals" value="1"/>
-    <property name="table" value="a+5=10"/>
+    <property name="table" value="12-_=7"/>
     <property name="width" type="int" value="6"/>
    </properties>
    <point/>
   </object>
-  <object id="177" x="219" y="132">
+  <object id="177" x="218" y="57">
    <properties>
     <property name="height" type="int" value="1"/>
     <property name="object" value="math_multi_row"/>
     <property name="signals" value="2"/>
-    <property name="table" value="b*2=10"/>
+    <property name="table" value="_*2=10"/>
     <property name="width" type="int" value="6"/>
    </properties>
    <point/>
@@ -137,9 +117,9 @@
     <property name="object" value="block"/>
    </properties>
   </object>
-  <object id="179" gid="2323" x="80" y="32" width="16" height="8">
+  <object id="179" gid="2323" x="136" y="40" width="16" height="8">
    <properties>
-    <property name="max" type="int" value="5"/>
+    <property name="max" type="int" value="4"/>
     <property name="min" type="int" value="0"/>
     <property name="mode" value="vertical"/>
     <property name="object" value="signal_platform"/>
@@ -155,21 +135,21 @@
     <property name="signal" type="int" value="2"/>
    </properties>
   </object>
-  <object id="181" gid="1281" x="224" y="32" width="8" height="8">
+  <object id="181" gid="1281" x="235" y="31.8636" width="8" height="8">
    <properties>
     <property name="object" value="signal_door"/>
     <property name="signal" type="int" value="0"/>
     <property name="state" value="standard"/>
    </properties>
   </object>
-  <object id="182" gid="1281" x="232" y="32" width="8" height="8">
+  <object id="182" gid="1281" x="243" y="31.8636" width="8" height="8">
    <properties>
     <property name="object" value="signal_door"/>
     <property name="signal" type="int" value="0"/>
     <property name="state" value="standard"/>
    </properties>
   </object>
-  <object id="183" gid="1409" x="84.1818" y="22.1818" width="8" height="8">
+  <object id="183" gid="1409" x="140.182" y="31.3485" width="8" height="8">
    <properties>
     <property name="object" value="key"/>
    </properties>
@@ -188,28 +168,34 @@
     <property name="object" value="door"/>
    </properties>
   </object>
-  <object id="189" gid="2339" x="256" y="112" width="16" height="8">
+  <object id="189" gid="2339" x="264" y="111" width="16" height="8">
    <properties>
-    <property name="max" type="int" value="-2"/>
+    <property name="max" type="int" value="-6"/>
     <property name="min" type="int" value="0"/>
-    <property name="mode" value="vertical"/>
+    <property name="mode" value="horizontal"/>
     <property name="object" value="signal_platform"/>
     <property name="signal" type="int" value="2"/>
-   </properties>
-  </object>
-  <object id="190" gid="1411" x="116" y="24" width="8" height="8">
-   <properties>
-    <property name="object" value="coin"/>
-   </properties>
-  </object>
-  <object id="191" gid="1411" x="156" y="33" width="8" height="8">
-   <properties>
-    <property name="object" value="coin"/>
    </properties>
   </object>
   <object id="192" gid="1028" x="48" y="120" width="16" height="16">
    <properties>
     <property name="object" value="spawn"/>
+   </properties>
+  </object>
+  <object id="193" gid="1411" x="216" y="112" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="194" gid="1026" x="200" y="120" width="16" height="16">
+   <properties>
+    <property name="lines" value="ты тут"/>
+    <property name="object" value="sign"/>
+   </properties>
+  </object>
+  <object id="195" gid="1411" x="140.333" y="21.3333" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
    </properties>
   </object>
  </objectgroup>

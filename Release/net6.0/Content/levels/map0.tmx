@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="5" nextobjectid="110">
+ <tileset firstgid="1" source="../tileset.tsx"/>
+ <tileset firstgid="1025" source="../LevelEditor/wide.tsx"/>
+ <tileset firstgid="1537" source="../LevelEditor/small.tsx"/>
+ <tileset firstgid="2561" source="../LevelEditor/big.tsx"/>
+ <layer id="4" name="Background" width="40" height="23">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,80,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,48,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,19,0,0,0,0,0,0,
+0,80,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,0,0,0,0,0,0,
+0,80,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,83,0,0,0,0,0,0,
+0,48,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,0,0,0,0,115,0,0,0,0,0,0,
+0,48,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,48,0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,48,0,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,112,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,16,0,0,0,0,19,0,0,0,0,0,0,0,0,0,
+0,0,48,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,48,0,0,0,0,51,0,0,0,0,0,0,0,0,0,
+0,0,80,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,83,48,0,0,0,0,83,0,0,0,48,50,50,51,0,0,
+0,0,48,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,112,0,0,0,0,115,0,0,0,48,50,82,83,0,0,
+0,0,80,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,51,0,0,0,0,0,0,0,0,0,80,82,82,51,0,0,
+0,16,0,0,0,0,0,19,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,16,0,0,80,0,0,83,0,19,
+0,48,0,0,0,0,0,51,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,0,0,0,0,0,0,48,0,0,0,0,0,0,0,51,
+0,48,0,0,0,0,0,83,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,80,0,0,0,0,0,0,0,51,
+0,48,0,0,0,0,0,51,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,48,0,0,0,0,0,0,0,51,
+0,80,0,0,0,0,0,83,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51,0,0,0,0,0,0,80,0,0,0,0,0,0,0,83
+</data>
+ </layer>
+ <layer id="1" name="Base" width="40" height="23">
+  <data encoding="csv">
+133,34,34,34,34,34,34,134,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,101,34,34,34,34,41,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+102,34,34,34,34,34,41,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+66,66,40,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,33,34,102,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,33,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,
+0,0,33,34,34,102,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,101,35,0,0,0,0,0,0,0,
+0,0,33,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,101,34,35,0,0,0,0,0,0,0,
+0,0,33,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65,66,66,67,0,0,0,0,0,0,0,
+0,0,33,101,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,33,34,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,33,34,101,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,65,40,34,41,67,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,35,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,
+0,0,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,35,0,0,33,101,34,35,0,0,0,0,0,0,0,0,0,0,
+0,0,0,33,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,33,34,34,35,0,0,33,34,101,35,0,0,0,0,0,0,0,0,0,0,
+0,0,0,33,34,35,0,0,0,1,2,3,0,0,0,0,0,0,0,0,33,34,34,35,0,0,65,66,66,67,0,0,0,0,0,0,0,0,0,0,
+0,0,0,33,34,35,0,0,0,33,34,35,0,0,0,0,0,0,0,0,33,102,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1,8,34,9,3,0,0,33,34,35,0,0,0,0,1,2,2,2,8,34,34,35,0,0,0,0,0,0,0,0,1,2,2,2,2,2,3,0,
+0,0,33,133,34,134,35,0,0,33,34,35,0,0,0,0,33,34,102,34,34,34,34,35,0,0,0,0,0,0,0,0,33,133,34,101,34,134,35,0,
+0,0,33,101,34,34,35,0,0,33,34,9,2,2,2,2,8,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,33,34,34,34,34,34,35,0,
+0,0,33,34,102,34,35,0,0,33,34,34,34,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,33,34,34,102,34,102,35,0,
+0,0,33,34,34,34,35,0,0,33,34,34,34,34,34,34,34,34,34,34,34,34,34,35,0,0,0,0,0,0,0,0,33,34,34,34,34,34,35,0
+</data>
+ </layer>
+ <objectgroup id="2" name="stuff">
+  <object id="83" gid="1633" x="129.5" y="38.5" width="8" height="8">
+   <properties>
+    <property name="object" value="block"/>
+   </properties>
+  </object>
+  <object id="85" gid="1537" x="104" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="86" gid="1537" x="112" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="87" gid="1537" x="120" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="88" gid="1025" x="76" y="128" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="89" gid="1073" x="144.25" y="145.416" width="16" height="8">
+   <properties>
+    <property name="object" value="spear"/>
+   </properties>
+  </object>
+  <object id="90" gid="1074" x="136" y="144" width="16" height="8">
+   <properties>
+    <property name="object" value="jumppad"/>
+   </properties>
+  </object>
+  <object id="91" gid="1538" x="152" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="92" gid="1538" x="144" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="93" gid="1041" x="216" y="104" width="16" height="8">
+   <properties>
+    <property name="object" value="button"/>
+    <property name="signal" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="94" gid="1569" x="120" y="49.25" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="95" gid="1569" x="136" y="49.25" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="96" gid="1569" x="128" y="49.25" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="1"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="97" gid="1665" x="110.417" y="94.75" width="8" height="8">
+   <properties>
+    <property name="object" value="key"/>
+   </properties>
+  </object>
+  <object id="98" gid="2561" x="105.5" y="160.583" width="16" height="16">
+   <properties>
+    <property name="object" value="player"/>
+   </properties>
+  </object>
+  <object id="99" gid="2563" x="280" y="144" width="16" height="16">
+   <properties>
+    <property name="object" value="door"/>
+   </properties>
+  </object>
+  <object id="100" gid="1537" x="232" y="104" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="101" gid="1537" x="232" y="96" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="102" gid="1537" x="232" y="88" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="103" gid="2562" x="46" y="144" width="16" height="16">
+   <properties>
+    <property name="lines" value="Можно прыгнуть чтобы кинуть предмет через стену."/>
+    <property name="object" value="sign"/>
+   </properties>
+  </object>
+  <object id="104" gid="2564" x="104" y="160" width="16" height="16">
+   <properties>
+    <property name="object" value="spawn"/>
+   </properties>
+  </object>
+  <object id="105" gid="2562" x="176" y="80" width="16" height="16">
+   <properties>
+    <property name="lines" value="Распрыжка запрещена."/>
+    <property name="object" value="sign"/>
+   </properties>
+  </object>
+  <object id="106" gid="1667" x="172" y="64" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="107" gid="1667" x="83" y="80" width="8" height="8">
+   <properties>
+    <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="108" gid="2562" x="96" y="160" width="16" height="16">
+   <properties>
+    <property name="lines">Копье можно кинуть, чтобы оно застряло в стене.
+Застрявшее копье можно использовать как платформу.
+Копье можно достать из стены.</property>
+    <property name="object" value="sign"/>
+   </properties>
+  </object>
+  <object id="109" x="0" y="0">
+   <properties>
+    <property name="object" value="dialogueTrigger"/>
+    <property name="path" value="dialogues/spear.json"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

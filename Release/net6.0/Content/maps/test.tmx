@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="279">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="283">
  <tileset firstgid="1" source="../tileset.tsx"/>
  <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
@@ -69,40 +69,23 @@
     <property name="object" value="player"/>
    </properties>
   </object>
-  <object id="268" gid="1409" x="221" y="64.3333" width="8" height="8">
+  <object id="268" gid="1409" x="215.875" y="63.4583" width="8" height="8">
    <properties>
     <property name="object" value="key"/>
    </properties>
   </object>
-  <object id="274" gid="2307" x="112" y="32" width="16" height="8">
+  <object id="280" gid="1281" x="208" y="64" width="8" height="8">
    <properties>
-    <property name="max" type="int" value="-4"/>
-    <property name="min" type="int" value="0"/>
-    <property name="mode" value="horizontal"/>
-    <property name="object" value="signal_platform"/>
+    <property name="object" value="signal_door"/>
     <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
    </properties>
   </object>
-  <object id="275" gid="1287" x="224" y="40" width="8" height="8">
+  <object id="281" gid="1281" x="208" y="56" width="8" height="8">
    <properties>
-    <property name="dir" type="int" value="1"/>
-    <property name="enabled" type="bool" value="false"/>
-    <property name="object" value="wall_button"/>
+    <property name="object" value="signal_door"/>
     <property name="signal" type="int" value="0"/>
-   </properties>
-  </object>
-  <object id="276" gid="2353" x="168" y="48" width="16" height="8">
-   <properties>
-    <property name="object" value="spear"/>
-   </properties>
-  </object>
-  <object id="278" gid="2307" x="112" y="40" width="16" height="8">
-   <properties>
-    <property name="max" type="int" value="4"/>
-    <property name="min" type="int" value="0"/>
-    <property name="mode" value="horizontal"/>
-    <property name="object" value="signal_platform"/>
-    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
    </properties>
   </object>
  </objectgroup>

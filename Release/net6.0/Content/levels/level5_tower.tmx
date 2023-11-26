@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="110">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="112">
  <tileset firstgid="1" source="../tileset.tsx"/>
  <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
@@ -19,9 +19,9 @@
 0,0,0,0,0,0,0,0,0,0,0,48,50,0,50,51,0,0,0,0,0,0,0,0,48,50,0,50,51,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,80,50,50,50,83,0,0,0,0,0,0,0,0,48,50,50,50,83,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,343,344,344,344,345,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,366,367,367,367,368,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,80,50,50,50,83,398,399,399,399,400,0,0,0,48,50,50,50,83,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,48,50,50,50,51,0,0,0,0,0,0,0,0,80,50,50,50,51,0,0,0,0,0,0,0,0,0,0,0,
@@ -59,7 +59,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Objects">
-  <object id="58" gid="1025" x="152.333" y="28.8333" width="16" height="16">
+  <object id="58" gid="1025" x="150" y="46.1666" width="16" height="16">
    <properties>
     <property name="object" value="player"/>
    </properties>
@@ -122,7 +122,7 @@
     <property name="signal" type="int" value="0"/>
    </properties>
   </object>
-  <object id="99" x="128" y="112">
+  <object id="99" x="130" y="113">
    <properties>
     <property name="height" type="int" value="1"/>
     <property name="object" value="math_multi_row"/>
@@ -132,10 +132,9 @@
    </properties>
    <point/>
   </object>
-  <object id="100" gid="1026" x="204" y="80" width="16" height="16">
+  <object id="100" gid="1026" x="100" y="160" width="16" height="16">
    <properties>
-    <property name="lines">Высокая башня.
-Да?</property>
+    <property name="lines" value="Для нажатия кнопки можно использовать гравитацию."/>
     <property name="object" value="sign"/>
    </properties>
   </object>
@@ -186,16 +185,19 @@
     <property name="object" value="coin"/>
    </properties>
   </object>
-  <object id="108" gid="1411" x="86.6667" y="148.667" width="8" height="8">
+  <object id="108" gid="1411" x="224" y="120" width="8" height="8">
    <properties>
     <property name="object" value="coin"/>
    </properties>
   </object>
-  <object id="109" gid="1026" x="160" y="48" width="16" height="16">
+  <object id="110" gid="1028" x="152" y="48" width="16" height="16">
    <properties>
-    <property name="lines">Синие кнопки отличаются от зеленых и красных.
-Если для активации зеленых и красных механизмов нужно нажать все кнопки, то
-для активации синих механизмов достаточно нажать одну из кнопок.</property>
+    <property name="object" value="spawn"/>
+   </properties>
+  </object>
+  <object id="111" gid="1026" x="176" y="128" width="16" height="16">
+   <properties>
+    <property name="lines" value="Тут и башни есть."/>
     <property name="object" value="sign"/>
    </properties>
   </object>

@@ -13,11 +13,45 @@
         "Source" : "level2_tutorial",
         "TotalCoins" :  2
     },
+
+    {
+        "Type" : "simple",
+        "Name" : "Точность 1",
+        "Code" : "spikes_here",
+        "Source" : "spikes_here",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "No math? 1",
+        "Code" : "map0",
+        "Source" : "map0",
+        "TotalCoins" :  2
+    },
+
     {
         "Type" : "simple",
         "Name" : "Спуск",
         "Code" : "level3_descend",
         "Source" : "level3_descend",
+        "TotalCoins" :  2
+    },
+
+
+    {
+        "Type" : "simple",
+        "Name" : "Вовин",
+        "Code" : "empty_test",
+        "Source" : "empty_test",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Синий смех",
+        "Code" : "map11",
+        "Source" : "map11",
         "TotalCoins" :  2
     },
 
@@ -31,11 +65,140 @@
 
     {
         "Type" : "simple",
+        "Name" : "Шлюз и таймер",
+        "Code" : "lock_timer",
+        "Source" : "lock_timer",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Камень",
+        "Code" : "stoneSpearBomb",
+        "Source" : "stoneSpearBomb",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Быстрее",
+        "Code" : "bomb_tutorial",
+        "Source" : "bomb_tutorial",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
         "Name" : "Лучи",
         "Code" : "tutorial_laser",
         "Source" : "tutorial_laser",
         "TotalCoins" :  2
     },
+
+    {
+        "Type" : "simple",
+        "Name" : "Числа",
+        "Code" : "numbers",
+        "Source" : "numbers",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Точность 2",
+        "Code" : "bombBellow",
+        "Source" : "bombBellow",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Весы",
+        "Code" : "weighterStone",
+        "Source" : "weighterStone",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "No math? 2",
+        "Code" : "wallButton",
+        "Source" : "wallButton",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Поля",
+        "Code" : "beamsControl",
+        "Source" : "beamsControl",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Весы и буква",
+        "Code" : "weighterLetter",
+        "Source" : "weighterLetter",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Буквы",
+        "Code" : "lettersBeam",
+        "Source" : "lettersBeam",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Бомба и поле",
+        "Code" : "beam_bomb",
+        "Source" : "beam_bomb",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "То копье",
+        "Code" : "spear",
+        "Source" : "spear",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Октополя",
+        "Code" : "fieldHard",
+        "Source" : "fieldHard",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Сизиф",
+        "Code" : "precision",
+        "Source" : "precision",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Босс",
+        "Code" : "end",
+        "Source" : "end",
+        "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "simple",
+        "Name" : "Конец",
+        "Code" : "over",
+        "Source" : "over",
+        "TotalCoins" : 7
+    },
+
 
     {
         "Type" : "test",
