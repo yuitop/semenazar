@@ -1,34 +1,64 @@
 [
     {
-        "Code" : "elden",
-        "Price" : 3,
-        "Name" : "Elden Elden",
-        "Description" : "да",
+        "Code" : "semens",
+        "Price" : 2,
+        "Name" : "Семены",
+        "Description" : "Кто из них настоящий?",
         "Source" : "image1",
         "Preview" : "image1_preview"
     },
+
     {
-        "Code" : "semen",
-        "Price" : 2,
-        "Name" : "\"Конец Семена\"",
-        "Description" : "\"Казалось бы, при чем здесь Украина?\"",
-        "Source" : "image1",
+        "Code" : "sketch",
+        "Price" : 6,
+        "Name" : "Наброски",
+        "Description" : "Так много не было добавлено",
+        "Source" : "image2",
+        "Preview" : "image2_preview"
+    },
+
+    {
+        "Code" : "eva",
+        "Price" : 12,
+        "Name" : "Конец Семена",
+        "Description" : "trye ending",
+        "Source" : "image3",
         "Preview" : "image3_preview"
     },
+
     {
-        "Code" : "antonvladimir",
-        "Price" : 0,
-        "Name" : "\"Антон И Владимир\"",
-        "Description" : "\"где?\"",
+        "Code" : "cast",
+        "Price" : 6,
+        "Name" : "Персонажи",
+        "Description" : "Вот они слева направо",
         "Source" : "image4",
         "Preview" : "image4_preview"
     },
+
     {
-        "Code" : "lilith",
-        "Price" : 2,
-        "Name" : "Вова",
-        "Description" : "да",
+        "Code" : "crucify",
+        "Price" : 10,
+        "Name" : "Распятие шести",
+        "Description" : "bab ending",
         "Source" : "image5",
         "Preview" : "image5_preview"
+    },
+
+    {
+        "Code" : "anime",
+        "Price" : 6,
+        "Name" : "СЕМЕН СМОТРИТ АНИМЕ",
+        "Description" : "СЕМЕН СМОТРИТ АНИМЕ",
+        "Source" : "image6",
+        "Preview" : "image6_preview"
+    },
+
+    {
+        "Code" : "meta",
+        "Price" : 4,
+        "Name" : "Метафора",
+        "Description" : "Даже я?",
+        "Source" : "image7",
+        "Preview" : "image7_preview"
     }
 ]

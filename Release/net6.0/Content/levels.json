@@ -6,12 +6,21 @@
         "Source" : "level1_tutorial",
         "TotalCoins" :  2
     },
+
     {
         "Type" : "simple",
         "Name" : "Обучение 2",
         "Code" : "level2_tutorial",
         "Source" : "level2_tutorial",
         "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "test",
+        "Name" : "Дроби 1",
+        "Code" : "addsubtract",
+        "Source" : "addsubtract",
+        "Total" : 6
     },
 
     {
@@ -72,6 +81,14 @@
     },
 
     {
+        "Type" : "test",
+        "Name" : "Дроби 2",
+        "Code" : "operations",
+        "Source" : "operations",
+        "Total" : 6
+    },
+
+    {
         "Type" : "simple",
         "Name" : "Камень",
         "Code" : "stoneSpearBomb",
@@ -120,6 +137,14 @@
     },
 
     {
+        "Type" : "test",
+        "Name" : "Упрощение выражений",
+        "Code" : "simplify",
+        "Source" : "simplify",
+        "Total" : 6
+    },
+
+    {
         "Type" : "simple",
         "Name" : "No math? 2",
         "Code" : "wallButton",
@@ -152,6 +177,14 @@
     },
 
     {
+        "Type" : "test",
+        "Name" : "Линейные уравнения",
+        "Code" : "linear",
+        "Source" : "linear",
+        "Total" : 6
+    },
+
+    {
         "Type" : "simple",
         "Name" : "Бомба и поле",
         "Code" : "beam_bomb",
@@ -165,6 +198,14 @@
         "Code" : "spear",
         "Source" : "spear",
         "TotalCoins" :  2
+    },
+
+    {
+        "Type" : "test",
+        "Name" : "Дискриминант",
+        "Code" : "discrimination",
+        "Source" : "discrimination",
+        "Total" : 6
     },
 
     {
@@ -184,6 +225,14 @@
     },
 
     {
+        "Type" : "test",
+        "Name" : "Квадратные уравнения",
+        "Code" : "quadratic",
+        "Source" : "quad",
+        "Total" : 6
+    },
+
+    {
         "Type" : "simple",
         "Name" : "Босс",
         "Code" : "end",
@@ -197,49 +246,5 @@
         "Code" : "over",
         "Source" : "over",
         "TotalCoins" : 7
-    },
-
-
-    {
-        "Type" : "test",
-        "Name" : "Дроби 1",
-        "Code" : "addsubtract",
-        "Source" : "addsubtract",
-        "Total" : 6
-    },
-    {
-        "Type" : "test",
-        "Name" : "Дроби 2",
-        "Code" : "operations",
-        "Source" : "operations",
-        "Total" : 6
-    },
-    {
-        "Type" : "test",
-        "Name" : "Упрощение выражений",
-        "Code" : "simplify",
-        "Source" : "simplify",
-        "Total" : 6
-    },
-    {
-        "Type" : "test",
-        "Name" : "Линейные уравнения",
-        "Code" : "linear",
-        "Source" : "linear",
-        "Total" : 6
-    },
-    {
-        "Type" : "test",
-        "Name" : "Дискриминант",
-        "Code" : "discrimination",
-        "Source" : "discrimination",
-        "Total" : 6
-    },
-    {
-        "Type" : "test",
-        "Name" : "Квадратные уравнения",
-        "Code" : "quadratic",
-        "Source" : "quad",
-        "Total" : 6
     }
 ]
