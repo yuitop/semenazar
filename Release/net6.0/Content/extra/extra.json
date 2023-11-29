@@ -1,7 +1,7 @@
 [
     {
         "Code" : "semens",
-        "Price" : 2,
+        "Price" : 4,
         "Name" : "Семены",
         "Description" : "Кто из них настоящий?",
         "Source" : "image1",
@@ -10,7 +10,7 @@
 
     {
         "Code" : "sketch",
-        "Price" : 6,
+        "Price" : 2,
         "Name" : "Наброски",
         "Description" : "Так много не было добавлено",
         "Source" : "image2",

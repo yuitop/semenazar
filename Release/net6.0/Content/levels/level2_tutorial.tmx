@@ -92,7 +92,8 @@
   </object>
   <object id="288" gid="1026" x="112" y="144" width="16" height="16">
    <properties>
-    <property name="lines" value="Движущаяся платформа поднимается при активации и возвращается назад при деактивации."/>
+    <property name="lines">Движущаяся платформа поднимается при активации и возвращается назад при деактивации.
+Зажимайте Shift, чтобы подготовить бросок. Нажмите Z, чтобы кинуть предмет.</property>
     <property name="object" value="sign"/>
    </properties>
   </object>
