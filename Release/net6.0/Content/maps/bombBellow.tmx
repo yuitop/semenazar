@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="145">
- <tileset firstgid="1" source="../tileset.tsx"/>
- <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
- <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
- <tileset firstgid="2305" source="../LevelEditor/wide.tsx"/>
+ <tileset firstgid="1" source="../../../../../Content/tileset.tsx"/>
+ <tileset firstgid="1025" source="../../../../../Content/LevelEditor/big.tsx"/>
+ <tileset firstgid="1281" source="../../../../../Content/LevelEditor/small.tsx"/>
+ <tileset firstgid="2305" source="../../../../../Content/LevelEditor/wide.tsx"/>
  <layer id="3" name="Background" width="40" height="23">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -170,6 +170,13 @@
    <properties>
     <property name="lines" value="Пожалуйста, не используйте распрыжку."/>
     <property name="object" value="sign"/>
+   </properties>
+  </object>
+  <object id="144" gid="1327" x="0" y="104" width="8" height="8">
+   <properties>
+    <property name="direction" type="int" value="3"/>
+    <property name="object" value="laser"/>
+    <property name="signal" type="int" value="1"/>
    </properties>
   </object>
  </objectgroup>
