@@ -74,7 +74,7 @@
    </properties>
    <point/>
   </object>
-  <object id="142" gid="1543" x="72.6667" y="134.333" width="8" height="8">
+  <object id="142" gid="1543" x="55.6667" y="128" width="8" height="8">
    <properties>
     <property name="object" value="number"/>
     <property name="value" type="int" value="6"/>
@@ -97,7 +97,7 @@ _+a=7</property>
     <property name="value" type="int" value="4"/>
    </properties>
   </object>
-  <object id="149" gid="1540" x="231.334" y="134.666" width="8" height="8">
+  <object id="149" gid="1540" x="231.334" y="127.999" width="8" height="8">
    <properties>
     <property name="object" value="number"/>
     <property name="value" type="int" value="3"/>
@@ -121,7 +121,7 @@ _+a=7</property>
     <property name="signal" type="int" value="2"/>
    </properties>
   </object>
-  <object id="157" gid="2339" x="228" y="144" width="16" height="8">
+  <object id="157" gid="2339" x="228" y="136" width="16" height="8">
    <properties>
     <property name="max" type="int" value="-7"/>
     <property name="min" type="int" value="0"/>
@@ -130,7 +130,7 @@ _+a=7</property>
     <property name="signal" type="int" value="2"/>
    </properties>
   </object>
-  <object id="158" gid="2339" x="68" y="144" width="16" height="8">
+  <object id="158" gid="2339" x="68" y="136" width="16" height="8">
    <properties>
     <property name="max" type="int" value="-7"/>
     <property name="min" type="int" value="0"/>
