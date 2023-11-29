@@ -109,7 +109,7 @@
   </object>
   <object id="86" gid="2307" x="240" y="176" width="16" height="8">
    <properties>
-    <property name="max" type="int" value="-15"/>
+    <property name="max" type="int" value="-14"/>
     <property name="min" type="int" value="0"/>
     <property name="mode" value="vertical"/>
     <property name="object" value="signal_platform"/>
@@ -154,7 +154,7 @@
   </object>
   <object id="103" gid="2323" x="272" y="96" width="16" height="8">
    <properties>
-    <property name="max" type="int" value="-5"/>
+    <property name="max" type="int" value="-4"/>
     <property name="min" type="int" value="0"/>
     <property name="mode" value="vertical"/>
     <property name="object" value="signal_platform"/>

@@ -90,7 +90,7 @@
     <property name="signal" type="int" value="0"/>
    </properties>
   </object>
-  <object id="205" gid="1505" x="28.0833" y="62.5417" width="8" height="8">
+  <object id="205" gid="1505" x="56.0833" y="63.5417" width="8" height="8">
    <properties>
     <property name="object" value="remote"/>
    </properties>
@@ -113,11 +113,11 @@
     <property name="signal" type="int" value="0"/>
    </properties>
   </object>
-  <object id="208" x="74" y="153">
+  <object id="208" x="75" y="153">
    <properties>
     <property name="height" type="int" value="1"/>
     <property name="object" value="math_multi_row"/>
-    <property name="signals" value="2"/>
+    <property name="signals" value="1"/>
     <property name="table" value="_+2=5"/>
     <property name="width" type="int" value="10"/>
    </properties>
@@ -129,7 +129,7 @@
     <property name="min" type="int" value="0"/>
     <property name="mode" value="vertical"/>
     <property name="object" value="signal_platform"/>
-    <property name="signal" type="int" value="2"/>
+    <property name="signal" type="int" value="1"/>
    </properties>
   </object>
   <object id="213" gid="1027" x="284" y="144" width="16" height="16">

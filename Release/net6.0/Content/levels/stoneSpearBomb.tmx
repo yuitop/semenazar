@@ -117,7 +117,7 @@
     <property name="object" value="block"/>
    </properties>
   </object>
-  <object id="179" gid="2323" x="136" y="48" width="16" height="8">
+  <object id="179" gid="2323" x="136" y="38" width="16" height="8">
    <properties>
     <property name="max" type="int" value="4"/>
     <property name="min" type="int" value="0"/>
@@ -149,7 +149,7 @@
     <property name="state" value="standard"/>
    </properties>
   </object>
-  <object id="183" gid="1409" x="140.182" y="39.3485" width="8" height="8">
+  <object id="183" gid="1409" x="140.182" y="29.3485" width="8" height="8">
    <properties>
     <property name="object" value="key"/>
    </properties>
@@ -187,7 +187,7 @@
     <property name="object" value="coin"/>
    </properties>
   </object>
-  <object id="195" gid="1411" x="140.333" y="29.3333" width="8" height="8">
+  <object id="195" gid="1411" x="140.333" y="19.3333" width="8" height="8">
    <properties>
     <property name="object" value="coin"/>
    </properties>
