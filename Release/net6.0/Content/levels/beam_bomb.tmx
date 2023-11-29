@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="213">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="217">
  <tileset firstgid="1" source="../tileset.tsx"/>
  <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
@@ -13,11 +13,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,83,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,115,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,335,336,0,334,335,335,335,335,336,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,366,367,367,367,367,368,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,366,367,367,367,367,368,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,366,367,367,367,367,368,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,398,399,399,399,399,400,0,398,399,399,399,399,400,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,334,335,335,335,335,336,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,366,367,367,367,367,368,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,398,399,399,399,399,400,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,18,19,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48,49,50,51,0,
@@ -116,16 +116,6 @@
     <property name="object" value="stone"/>
    </properties>
   </object>
-  <object id="199" x="251" y="65">
-   <properties>
-    <property name="height" type="int" value="1"/>
-    <property name="object" value="math_multi_row"/>
-    <property name="signals" value="0"/>
-    <property name="table" value="_4/4=6"/>
-    <property name="width" type="int" value="10"/>
-   </properties>
-   <point/>
-  </object>
   <object id="200" gid="2339" x="88" y="96" width="16" height="8">
    <properties>
     <property name="max" type="int" value="7"/>
@@ -153,16 +143,9 @@
     <property name="signal" type="int" value="2"/>
    </properties>
   </object>
-  <object id="206" gid="1409" x="63.25" y="134.333" width="8" height="8">
+  <object id="206" gid="1409" x="75.75" y="37.7497" width="8" height="8">
    <properties>
     <property name="object" value="key"/>
-   </properties>
-  </object>
-  <object id="207" gid="1289" x="272" y="56" width="8" height="8">
-   <properties>
-    <property name="direction" type="int" value="0"/>
-    <property name="object" value="laser"/>
-    <property name="signal" type="int" value="0"/>
    </properties>
   </object>
   <object id="208" gid="1028" x="152" y="128" width="16" height="16">
@@ -181,9 +164,18 @@
     <property name="object" value="coin"/>
    </properties>
   </object>
-  <object id="211" gid="1411" x="36" y="120" width="8" height="8">
+  <object id="211" gid="1411" x="48" y="120" width="8" height="8">
    <properties>
     <property name="object" value="coin"/>
+   </properties>
+  </object>
+  <object id="216" gid="2307" x="72" y="48" width="16" height="8">
+   <properties>
+    <property name="max" type="int" value="4"/>
+    <property name="min" type="int" value="0"/>
+    <property name="mode" value="vertical"/>
+    <property name="object" value="signal_platform"/>
+    <property name="signal" type="int" value="2"/>
    </properties>
   </object>
  </objectgroup>

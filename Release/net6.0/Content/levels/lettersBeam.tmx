@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="174">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="8" tileheight="8" infinite="0" nextlayerid="4" nextobjectid="178">
  <tileset firstgid="1" source="../tileset.tsx"/>
  <tileset firstgid="1025" source="../LevelEditor/big.tsx"/>
  <tileset firstgid="1281" source="../LevelEditor/small.tsx"/>
@@ -175,16 +175,6 @@
     <property name="signal" type="int" value="1"/>
    </properties>
   </object>
-  <object id="162" gid="2369" x="96" y="176" width="16" height="8">
-   <properties>
-    <property name="object" value="falling_platform"/>
-   </properties>
-  </object>
-  <object id="163" gid="2369" x="72" y="176" width="16" height="8">
-   <properties>
-    <property name="object" value="falling_platform"/>
-   </properties>
-  </object>
   <object id="167" gid="1028" x="168" y="168" width="16" height="16">
    <properties>
     <property name="object" value="spawn"/>
@@ -217,15 +207,43 @@
   <object id="172" gid="1282" x="176" y="64" width="8" height="8">
    <properties>
     <property name="object" value="signal_door"/>
-    <property name="signal" type="int" value="0"/>
+    <property name="signal" type="int" value="2"/>
     <property name="state" value="reverse"/>
    </properties>
   </object>
   <object id="173" gid="1282" x="168" y="64" width="8" height="8">
    <properties>
     <property name="object" value="signal_door"/>
-    <property name="signal" type="int" value="0"/>
+    <property name="signal" type="int" value="2"/>
     <property name="state" value="reverse"/>
+   </properties>
+  </object>
+  <object id="174" gid="1281" x="104" y="176" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="175" gid="1281" x="96" y="176" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="176" gid="1281" x="80" y="176" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
+   </properties>
+  </object>
+  <object id="177" gid="1281" x="72" y="176" width="8" height="8">
+   <properties>
+    <property name="object" value="signal_door"/>
+    <property name="signal" type="int" value="0"/>
+    <property name="state" value="standard"/>
    </properties>
   </object>
  </objectgroup>
